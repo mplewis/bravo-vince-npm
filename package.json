@@ -1,9 +1,11 @@
 {
   "name": "bravo-vince",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "B R A V O V I N C E your text.",
   "main": "src/index.js",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "repository": "git@github.com:mplewis/bravo-vince-npm.git",
   "author": "Matt Lewis <matt@mplewis.com>",
   "license": "MIT",
