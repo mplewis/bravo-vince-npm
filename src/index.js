@@ -1,6 +1,11 @@
+const typeCheck = require('type-check').typeCheck
+
 function bravoVince (vert, horiz) {
-  vert = vert.split('')
+  if (!typeCheck('String', vert)) throw new Error('vert must be a string')
+  if (!typeCheck('[String]', horiz)) throw new Error('horiz must be an array of strings')
+  vert = vert.toUpperCase().split('')
   horiz.forEach(h => {
+    h = h.toUpperCase()
     let found = false
     vert.forEach((v, i) => {
       if (found) return
@@ -10,7 +15,7 @@ function bravoVince (vert, horiz) {
       found = true
     })
   })
-  return vert.join('\n').toUpperCase()
+  return vert.join('\n')
 }
 
 module.exports = bravoVince
