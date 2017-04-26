@@ -1,0 +1,9 @@
+{
+  "name": "bravo-vince-npm",
+  "version": "0.0.0",
+  "description": "B R A V O V I N C E your text.",
+  "main": "index.js",
+  "repository": "git@github.com:mplewis/bravo-vince-npm.git",
+  "author": "Matt Lewis <matt@mplewis.com>",
+  "license": "MIT"
+}
