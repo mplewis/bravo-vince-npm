@@ -2,8 +2,22 @@
   "name": "bravo-vince-npm",
   "version": "0.0.0",
   "description": "B R A V O V I N C E your text.",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": "git@github.com:mplewis/bravo-vince-npm.git",
   "author": "Matt Lewis <matt@mplewis.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "heredocument": "^2.0.2",
+    "mocha": "^3.3.0"
+  }
 }
