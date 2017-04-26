@@ -12,6 +12,9 @@
   "scripts": {
     "test": "mocha test/**/*.test.js"
   },
+  "dependencies": {
+    "type-check": "^0.3.2"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
@@ -21,7 +24,6 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "heredocument": "^2.0.2",
-    "mocha": "^3.3.0",
-    "type-check": "^0.3.2"
+    "mocha": "^3.3.0"
   }
 }
